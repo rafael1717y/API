@@ -2,6 +2,7 @@ from flask import Flask, request, render_template # Importa a biblioteca
 
 app = Flask(__name__, template_folder='templates') # Inicializa a aplicação
 
+
 @app.route('/') # Nova rota
 def main():
     resultado = None
