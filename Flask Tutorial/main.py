@@ -8,6 +8,7 @@ def main():
     resultado = None
     media = None
 
+
     primeira = request.args.get('primeira')
     segunda = request.args.get('segunda')
 
